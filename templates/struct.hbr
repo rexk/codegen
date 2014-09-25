@@ -1,0 +1,6 @@
+package {{package}}
+
+type {{type}} struct {
+  {{#each fields}}{{name}}  {{type}}  {{{tag}}}
+  {{/each}}
+}
